@@ -3,11 +3,17 @@ Capstone-EDA-project-1-Airbnb-bookings-analysis
 AirBnb
 
 Table Of Contents
+
 .Introduction of Airbnb
+
 .About the Dataset
+
 .Python libraries used
+
 .Project Work flow
+
 .purpose of the analysis
+
 
 Introduction of Airbnb:-
 Airbnb is a popular online platform that allows individuals to list, discover, and book unique accommodations around the world. It was founded in 2008 by Brian Chesky, Joe Gebbia and Nathan Blecharczyk, and has since become the largest and most successful home-sharing companies in the world.
