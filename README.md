@@ -1,62 +1,79 @@
-# Capstone-project---Airbnb-booking-analysis
-Capstone-EDA-project-1-Airbnb-bookings-analysis
-AirBnb
+# 🏡 Airbnb Booking Analysis (EDA Project)
 
-Table Of Contents
+## 📌 Overview
+This project analyzes Airbnb booking data for New York City (2019) to uncover key factors influencing **pricing, demand, and listing performance**. The goal is to generate **data-driven insights** that help improve decision-making for both hosts and the Airbnb platform.
 
-.Introduction of Airbnb
+---
 
-.About the Dataset
+## 🎯 Business Objective
+- Identify **key drivers of price variation** across neighborhoods  
+- Analyze **demand vs availability patterns**  
+- Understand **customer preferences and booking behavior**  
+- Provide **actionable insights** to optimize pricing, occupancy, and platform growth  
 
-.Python libraries used
+---
 
-.Project Work flow
+## 📊 Dataset Information
+- **Total Records:** 48,895 listings  
+- **Features:** 16 (categorical + numerical)  
+- Includes: **price, location, room type, availability, reviews, host activity**  
 
-.purpose of the analysis
+---
 
+## 🛠️ Tech Stack
+- **Python**  
+- **Pandas & NumPy** – Data manipulation  
+- **Matplotlib & Seaborn** – Data visualization  
 
-Introduction of Airbnb:-
-Airbnb is a popular online platform that allows individuals to list, discover, and book unique accommodations around the world. It was founded in 2008 by Brian Chesky, Joe Gebbia and Nathan Blecharczyk, and has since become the largest and most successful home-sharing companies in the world.
+---
 
-Airbnb allows hosts to list their homes, apartments, or other properties for short-term rentals, and provides a platform for travelers to search for and book these accommodations. The platform includes a variety of listing types, including entire homes, private rooms, and shared rooms, and offers a wide range of price points to suit different budgets.
+## 🔄 Project Workflow
 
-Airbnb has also become a popular choice for travelers who want to experience a destination like a local, rather than as a tourist. With more than four million listings in over 100,000 cities.
+### 1. Data Loading & Understanding
+- Imported dataset and explored **structure, data types, and distributions**
 
-About the Dataset – AIRBNB BOOKINGS
-Dataset Information
-.Number of instances: 48895
+### 2. Data Cleaning & Preprocessing
+- Handled **missing values, duplicates, and inconsistencies**
+- Treated **outliers** to improve data quality  
 
-.Number of attributes: 16
+### 3. Exploratory Data Analysis (EDA)
+- Analyzed relationships between **price, location, room type, and availability**
+- Identified **trends and patterns** using visualizations  
 
-The Data includes both categorical and numeric values, providing a diverse range of information about the listings.
+### 4. Insight Generation
+- Derived **business insights** on pricing, demand, and host behavior  
 
-This Dataset may be useful for analyzing trends and patterns in the Airbnb market in New York and also gain insights into the preferences and behavior of Airbnb users in the area.
+### 5. Business Recommendations
+- Suggested strategies for **pricing optimization, demand-supply balance, and host performance improvement**  
 
-This dataset contains information about Airbnb bookings in New York City in 2019. By analyzing this data, you may be able to understand the trends and patterns of Airbnb use in the NYC.
+---
 
-Different Python libraries used to complete this EDA:
-Pandas
+## 🔍 Key Insights
+- **Location significantly impacts pricing**, with certain neighborhoods commanding premium rates  
+- **Entire homes/apartments are the most expensive**, while private/shared rooms target budget users  
+- **Higher availability indicates lower demand**, while low availability suggests high booking frequency  
+- **Listings with competitive pricing receive more reviews**, indicating higher engagement  
+- **Professional hosts (multiple listings) tend to price strategically and perform better**  
 
-NumPy
+---
 
-Matplotlib.Pyplot
+## 💼 Business Recommendations
+- Implement **dynamic pricing models** based on location, demand, and competition  
+- Promote **high-demand neighborhoods** and expand supply in those areas  
+- Encourage hosts to adopt **optimal minimum stay and pricing strategies**  
+- Provide **smart pricing tools and performance benchmarks** for hosts  
+- Improve visibility of **top-performing listings** to enhance user experience  
 
-Seaborn
+---
 
-Project Work flow
-Importing Libraries
+## 🚀 Outcome
 
-Loading the Dataset
+This analysis enables:
+- **Better pricing strategies** for hosts  
+- **Improved booking experience** for customers  
+- **Data-driven decision-making** for Airbnb business growth  
 
-explore Dataset
+---
 
-Data Cleaning and manipulate
-
-Handling Outliers
-
-Data Visualization
-
-Conclusion
-
-The purpose of the analysis
-understanding the factors that influence Airbnb prices in New York City, or identifying patterns of all variables and Our analysis provides useful information for travelers and hosts in the city and also provides some best insights for Airbnb business.
+## 📌 Conclusion
+The project demonstrates how **Exploratory Data Analysis (EDA)** can transform raw data into **actionable business insights**, helping optimize **pricing, demand, and overall marketplace efficiency**.
